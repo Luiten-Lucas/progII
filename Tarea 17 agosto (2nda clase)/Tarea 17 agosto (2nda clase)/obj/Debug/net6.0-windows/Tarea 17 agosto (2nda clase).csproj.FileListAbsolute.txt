@@ -1,0 +1,25 @@
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\bin\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).exe
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\bin\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).deps.json
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\bin\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).runtimeconfig.json
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\bin\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).dll
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\bin\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).pdb
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).csproj.AssemblyReference.cache
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).csproj.GenerateResource.cache
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).AssemblyInfoInputs.cache
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).AssemblyInfo.cs
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).csproj.CoreCompileInputs.cache
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).dll
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\refint\Tarea 17 agosto (2nda clase).dll
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).pdb
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).genruntimeconfig.cache
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\ref\Tarea 17 agosto (2nda clase).dll
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea_17_agosto__2nda_clase_.Formularios.frmPrincipal.resources
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).csproj.CopyComplete
+D:\Repositorio prog 2\Tarea 17 agosto (2nda clase)\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea_17_agosto__2nda_clase_.Formularios.formularioConsulta.resources
