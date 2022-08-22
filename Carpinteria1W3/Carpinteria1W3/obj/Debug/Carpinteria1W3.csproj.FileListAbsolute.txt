@@ -1,0 +1,10 @@
+D:\Repositorio prog 2\progII\Carpinteria1W3\Carpinteria1W3\bin\Debug\Carpinteria1W3.exe.config
+D:\Repositorio prog 2\progII\Carpinteria1W3\Carpinteria1W3\bin\Debug\Carpinteria1W3.exe
+D:\Repositorio prog 2\progII\Carpinteria1W3\Carpinteria1W3\bin\Debug\Carpinteria1W3.pdb
+D:\Repositorio prog 2\progII\Carpinteria1W3\Carpinteria1W3\obj\Debug\Carpinteria1W3.csproj.AssemblyReference.cache
+D:\Repositorio prog 2\progII\Carpinteria1W3\Carpinteria1W3\obj\Debug\Carpinteria1W3.Presentacion.FrmNuevoPresupuesto.resources
+D:\Repositorio prog 2\progII\Carpinteria1W3\Carpinteria1W3\obj\Debug\Carpinteria1W3.Properties.Resources.resources
+D:\Repositorio prog 2\progII\Carpinteria1W3\Carpinteria1W3\obj\Debug\Carpinteria1W3.csproj.GenerateResource.cache
+D:\Repositorio prog 2\progII\Carpinteria1W3\Carpinteria1W3\obj\Debug\Carpinteria1W3.csproj.CoreCompileInputs.cache
+D:\Repositorio prog 2\progII\Carpinteria1W3\Carpinteria1W3\obj\Debug\Carpinteria1W3.exe
+D:\Repositorio prog 2\progII\Carpinteria1W3\Carpinteria1W3\obj\Debug\Carpinteria1W3.pdb
