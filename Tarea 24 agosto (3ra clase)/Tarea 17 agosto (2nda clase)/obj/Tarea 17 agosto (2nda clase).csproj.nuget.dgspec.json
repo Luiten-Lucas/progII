@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repositorio prog 2\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj": {}
+    "D:\\Repositorio prog 2\\progII\\Tarea 24 agosto (3ra clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj": {}
   },
   "projects": {
-    "D:\\Repositorio prog 2\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj": {
+    "D:\\Repositorio prog 2\\progII\\Tarea 24 agosto (3ra clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositorio prog 2\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj",
+        "projectUniqueName": "D:\\Repositorio prog 2\\progII\\Tarea 24 agosto (3ra clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj",
         "projectName": "Tarea 17 agosto (2nda clase)",
-        "projectPath": "D:\\Repositorio prog 2\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj",
+        "projectPath": "D:\\Repositorio prog 2\\progII\\Tarea 24 agosto (3ra clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj",
         "packagesPath": "C:\\Users\\Vaio\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositorio prog 2\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase)\\obj\\",
+        "outputPath": "D:\\Repositorio prog 2\\progII\\Tarea 24 agosto (3ra clase)\\Tarea 17 agosto (2nda clase)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vaio\\AppData\\Roaming\\NuGet\\NuGet.Config",

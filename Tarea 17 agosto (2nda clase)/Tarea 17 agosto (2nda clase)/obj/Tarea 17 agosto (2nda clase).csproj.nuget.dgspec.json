@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repositorio prog 2\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj": {}
+    "D:\\Repositorio prog 2\\progII\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj": {}
   },
   "projects": {
-    "D:\\Repositorio prog 2\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj": {
+    "D:\\Repositorio prog 2\\progII\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositorio prog 2\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj",
+        "projectUniqueName": "D:\\Repositorio prog 2\\progII\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj",
         "projectName": "Tarea 17 agosto (2nda clase)",
-        "projectPath": "D:\\Repositorio prog 2\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj",
+        "projectPath": "D:\\Repositorio prog 2\\progII\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase).csproj",
         "packagesPath": "C:\\Users\\Vaio\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositorio prog 2\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase)\\obj\\",
+        "outputPath": "D:\\Repositorio prog 2\\progII\\Tarea 17 agosto (2nda clase)\\Tarea 17 agosto (2nda clase)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vaio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -39,17 +39,32 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
