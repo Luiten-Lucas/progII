@@ -38,37 +38,49 @@ namespace Tarea_17_agosto__2nda_clase_.Formularios
             DataTable tabla = new DataTable();
             tabla = oDatos.EjecutarSPConsulta("SP_OBTENER_ASIGNATURAS");
             cboMateria.DataSource = tabla;
-            cboMateria.ValueMember = "materia";
-            cboMateria.DisplayMember = "idAsignatura";
+            cboMateria.ValueMember = "idAsignatura";
+            cboMateria.DisplayMember = "materia";
             MateriasCargadas = tabla;
         }
-        private void enviarPlanes(int anio, int cuatri, string materia,string carrera, string titulo)
+        private void enviarPlanes(int anio, int cuatri, string materia, string carrera, string titulo)
         {
-            SqlConnection conexion = new();
-            conexion.ConnectionString = @"Data Source=DESKTOP-AR2T61C;Initial Catalog=planesCarrera;Integrated Security=True";
-            conexion.Open();
+            List<string> Procedimientos = new();
+            List<SqlCommand> Parametros = new();
+
+            
+            Procedimientos.Add("SP_CARGAR_CARRERAS");
             SqlCommand comando = new();
-            comando.Connection = conexion;
-            comando.CommandType = CommandType.StoredProcedure;
-            comando.CommandText = "SP_CONSULTAR_ULTIMA_CARRERA";
-            SqlParameter param = new("@NewId", SqlDbType.Int);
-            param.Direction = ParameterDirection.Output;
-            comando.Parameters.Add(param);
-            comando.ExecuteNonQuery();
-            int ultimoIdCarrera = Convert.ToInt32(param.Value??1);
-            comando.Parameters.Clear();
-            comando.CommandText = "SP_CARGAR_CARRERAS";
             comando.Parameters.AddWithValue("carrera", carrera);
             comando.Parameters.AddWithValue("titulo", titulo);
+            Parametros.Add(comando);
             
-            comando.ExecuteNonQuery();
-            comando.Parameters.Clear();
-            comando.CommandText = "SP_CARGAR_PLANES";
-            comando.Parameters.AddWithValue("anio", anio);
-            comando.Parameters.AddWithValue("cuatrimestre", cuatri);
-            comando.Parameters.AddWithValue("materia", materia);
-            comando.Parameters.AddWithValue("carrera", ultimoIdCarrera);
-            comando.ExecuteNonQuery();
+            oDatos.EjecutarTransaccion(Procedimientos,Parametros);
+
+            //SqlConnection conexion = new();
+            //conexion.ConnectionString = @"Data Source=DESKTOP-AR2T61C;Initial Catalog=planesCarrera;Integrated Security=True";
+            //conexion.Open();
+            //SqlCommand comando = new();
+            //comando.Connection = conexion;
+            //comando.CommandType = CommandType.StoredProcedure;
+            //comando.CommandText = "SP_CONSULTAR_ULTIMA_CARRERA";
+            //SqlParameter param = new("@NewId", SqlDbType.Int);
+            //param.Direction = ParameterDirection.Output;
+            //comando.Parameters.Add(param);
+            //comando.ExecuteNonQuery();
+            //int ultimoIdCarrera = Convert.ToInt32(param.Value??1);
+            //comando.Parameters.Clear();
+            //comando.CommandText = "SP_CARGAR_CARRERAS";
+            //comando.Parameters.AddWithValue("carrera", carrera);
+            //comando.Parameters.AddWithValue("titulo", titulo);
+
+            //comando.ExecuteNonQuery();
+            //comando.Parameters.Clear();
+            //comando.CommandText = "SP_CARGAR_PLANES";
+            //comando.Parameters.AddWithValue("anio", anio);
+            //comando.Parameters.AddWithValue("cuatrimestre", cuatri);
+            //comando.Parameters.AddWithValue("materia", materia);
+            //comando.Parameters.AddWithValue("carrera", ultimoIdCarrera);
+            //comando.ExecuteNonQuery();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)

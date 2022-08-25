@@ -28,5 +28,27 @@ namespace Tarea_17_agosto__2nda_clase_.Datos
             Conexion.Close();
             return table;
         }
+
+        public string EjecutarTransaccion(List<string> storedProcedures, List<SqlCommand> Params)
+        {
+            //Este método pérmite pasar 2 o más Procedimientos almacenados y 2 o más listas con sus respectivos parámetros. Es importante que se pasen en el orden correcto.
+            Conexion.Open();
+            SqlTransaction t = null;
+            t = Conexion.BeginTransaction();
+            for (int sp = 0; sp < storedProcedures.Count(); sp++)
+            {
+                SqlCommand Comando = new SqlCommand(storedProcedures[sp], Conexion, t);
+                Comando = Params[sp];
+                Comando.CommandText = storedProcedures[sp];
+                Comando.Connection = Conexion;
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Transaction = t;
+                Comando.ExecuteNonQuery();
+                t.Commit();
+            }
+
+
+            return "Mensaje post transacción";
+        }
     }
 }
