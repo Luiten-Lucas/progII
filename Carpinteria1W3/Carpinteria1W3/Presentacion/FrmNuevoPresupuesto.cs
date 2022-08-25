@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Carpinteria1W3.Datos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,12 +14,12 @@ namespace Carpinteria1W3.Presentacion
     public partial class FrmNuevoPresupuesto : Form
     {
         //Presupuesto oPresupuesto;
-        //DBHelper oDatos;
+        AyudanteDB oDatos;
         public FrmNuevoPresupuesto()
         {
             InitializeComponent();
             //oPresupuesto = new Presupuesto();
-            //oDatos = new DBHelper();
+            oDatos = new AyudanteDB();
         }
 
         private void FrmNuevoPresupuesto_Load(object sender, EventArgs e)
@@ -34,7 +35,7 @@ namespace Carpinteria1W3.Presentacion
         private void CargarProductos()
         {
             DataTable Tabla = new DataTable();
-            //Tabla=oDatos.ConsultarDB("SP_CONSULTAR_PRODUCTOS");
+            Tabla=oDatos.EjecutarSPConsulta("SP_CONSULTAR_PRODUCTOS");
             cboProductos.DataSource = Tabla;
             cboProductos.ValueMember = Tabla.Columns[0].ColumnName;
             cboProductos.DisplayMember = Tabla.Columns[1].ColumnName;

@@ -20,6 +20,7 @@ namespace Carpinteria1W3.Datos
             DataTable table = new DataTable();
             Conexion.Open();
             SqlCommand Comando = new SqlCommand(nombreSP);
+            Comando.Connection = Conexion;
             Comando.CommandType = CommandType.StoredProcedure;
             table.Load(Comando.ExecuteReader());
             Conexion.Close();
