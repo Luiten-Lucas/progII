@@ -60,7 +60,7 @@ namespace Tarea_17_agosto__2nda_clase_.Formularios
             comando2.Parameters.AddWithValue("anio", anio);
             comando2.Parameters.AddWithValue("cuatrimestre", cuatri);
             comando2.Parameters.AddWithValue("materia", materia);
-            comando2.Parameters.AddWithValue("carrera", this.ultimoIdCarrera+1);
+            comando2.Parameters.AddWithValue("carrera", this.ultimoIdCarrera);
             Parametros.Add(comando2);
 
             string resultado = oDatos.EjecutarTransaccion(Procedimientos,Parametros);

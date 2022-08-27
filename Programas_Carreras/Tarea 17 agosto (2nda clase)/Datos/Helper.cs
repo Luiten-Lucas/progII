@@ -45,6 +45,7 @@ namespace Tarea_17_agosto__2nda_clase_.Datos
 
         public string EjecutarTransaccion(List<string> storedProcedures, List<SqlCommand> Params)
         {
+            string resultado = "Se ejecutó con éxito la carga de datos";
             //Este método pérmite pasar 2 o más Procedimientos almacenados y 2 o más listas con sus respectivos parámetros. Es importante que se pasen en el orden correcto.
             if (Conexion.State == (System.Data.ConnectionState)1)
             {
@@ -56,20 +57,27 @@ namespace Tarea_17_agosto__2nda_clase_.Datos
             t = Conexion.BeginTransaction();
             for (int sp = 0; sp < storedProcedures.Count(); sp++)
             {
-                SqlCommand Comando = new SqlCommand(storedProcedures[sp], Conexion, t);
-                Comando = Params[sp];
-                Comando.CommandText = storedProcedures[sp];
-                Comando.Connection = Conexion;
-                Comando.CommandType = CommandType.StoredProcedure;
-                Comando.Transaction = t;
-                Comando.ExecuteNonQuery();
+                try {
+                    SqlCommand Comando = new SqlCommand(storedProcedures[sp], Conexion, t);
+                    Comando = Params[sp];
+                    Comando.CommandText = storedProcedures[sp];
+                    Comando.Connection = Conexion;
+                    Comando.CommandType = CommandType.StoredProcedure;
+                    Comando.Transaction = t;
+                    Comando.ExecuteNonQuery();
+
+                } catch (SqlException ex)
+                {
+                    resultado = "Ocurrió un error a nivel datos: " + ex.Message+" Los cambios no serán almacenados.";
+                }
+
                 //a esto meterlo entre transacciones
 
             }
             t.Commit();
             Conexion.Close();
 
-            return "Mensaje post transacción";
+            return resultado;
         }
     }
 }
