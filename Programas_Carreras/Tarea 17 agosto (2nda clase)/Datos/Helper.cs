@@ -11,6 +11,7 @@ namespace Tarea_17_agosto__2nda_clase_.Datos
     internal class Helper
     {
         private SqlConnection Conexion;
+        private string resultado = "Se ejecutó con éxito la carga de datos";
         public Helper()
         {
             Conexion = new SqlConnection();
@@ -19,6 +20,8 @@ namespace Tarea_17_agosto__2nda_clase_.Datos
         public DataTable EjecutarSPConsulta(string nombreSP)
         {
             DataTable table = new DataTable();
+            try
+            {
             Conexion.Open();
             SqlCommand Comando = new SqlCommand(nombreSP);
             Comando.Connection = Conexion;
@@ -26,10 +29,18 @@ namespace Tarea_17_agosto__2nda_clase_.Datos
             table.Load(Comando.ExecuteReader());
             Conexion.Close();
             return table;
+            }
+            catch (SqlException ex)
+            {
+                this.resultado = "Ocurrió un error a nivel datos: " + ex.Message + " Los cambios no serán almacenados.";
+                return table;
+            }
         }
 
         public int ObtenerUltimoId()
         {
+            try
+            {
             Conexion.Open();
             SqlCommand comando = new();
             comando.Connection = Conexion;
@@ -41,11 +52,18 @@ namespace Tarea_17_agosto__2nda_clase_.Datos
             comando.ExecuteNonQuery();
             int ultimoId = Convert.ToInt32(param.Value??1);
             return ultimoId;
+
+            }
+            catch (SqlException ex)
+            {
+                this.resultado = "Ocurrió un error a nivel datos: " + ex.Message + " Los cambios no serán almacenados.";
+                return 0;
+            }
         }
 
         public string EjecutarTransaccion(List<string> storedProcedures, List<SqlCommand> Params)
         {
-            string resultado = "Se ejecutó con éxito la carga de datos";
+            
             //Este método pérmite pasar 2 o más Procedimientos almacenados y 2 o más listas con sus respectivos parámetros. Es importante que se pasen en el orden correcto.
             if (Conexion.State == (System.Data.ConnectionState)1)
             {
