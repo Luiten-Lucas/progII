@@ -37,6 +37,7 @@ namespace Programas_Carreras
             this.darDeAltaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.materiasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarMateriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.planesDeEstudioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarProgramasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -84,20 +85,21 @@ namespace Programas_Carreras
             // consultarCarrerasToolStripMenuItem
             // 
             this.consultarCarrerasToolStripMenuItem.Name = "consultarCarrerasToolStripMenuItem";
-            this.consultarCarrerasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.consultarCarrerasToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.consultarCarrerasToolStripMenuItem.Text = "Consultar carreras";
             // 
             // darDeAltaToolStripMenuItem
             // 
             this.darDeAltaToolStripMenuItem.Name = "darDeAltaToolStripMenuItem";
-            this.darDeAltaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.darDeAltaToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.darDeAltaToolStripMenuItem.Text = "Dar de alta";
             this.darDeAltaToolStripMenuItem.Click += new System.EventHandler(this.darDeAltaToolStripMenuItem_Click);
             // 
             // materiasToolStripMenuItem
             // 
             this.materiasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.consultarMateriasToolStripMenuItem});
+            this.consultarMateriasToolStripMenuItem,
+            this.toolStripMenuItem1});
             this.materiasToolStripMenuItem.Name = "materiasToolStripMenuItem";
             this.materiasToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.materiasToolStripMenuItem.Text = "Materias";
@@ -107,6 +109,13 @@ namespace Programas_Carreras
             this.consultarMateriasToolStripMenuItem.Name = "consultarMateriasToolStripMenuItem";
             this.consultarMateriasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.consultarMateriasToolStripMenuItem.Text = "Consultar Materias";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1.Text = "Dar de alta materias";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // planesDeEstudioToolStripMenuItem
             // 
@@ -167,6 +176,7 @@ namespace Programas_Carreras
         private System.Windows.Forms.ToolStripMenuItem consultarProgramasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     }
 }
 

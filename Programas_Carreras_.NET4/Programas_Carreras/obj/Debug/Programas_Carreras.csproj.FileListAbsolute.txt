@@ -15,3 +15,4 @@ D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Deb
 D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\Programas_Carreras.csproj.CopyComplete
 D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\Programas_Carreras.exe
 D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\Programas_Carreras.pdb
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\Programas_Carreras.Formularios.frmAgregarMateria.resources

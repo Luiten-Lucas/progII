@@ -23,6 +23,7 @@ namespace Programas_Carreras.Formularios
         {
             InitializeComponent();
             oDatos = new Helper();
+
         }
 
         private void frmCarreras_Load(object sender, EventArgs e)
