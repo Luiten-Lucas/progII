@@ -63,6 +63,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Datos\Helper.cs" />
+    <Compile Include="Entidades\Asignatura.cs" />
+    <Compile Include="Entidades\Carrera.cs" />
+    <Compile Include="Entidades\Plan.cs" />
     <Compile Include="Formularios\frmCarreras.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +96,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

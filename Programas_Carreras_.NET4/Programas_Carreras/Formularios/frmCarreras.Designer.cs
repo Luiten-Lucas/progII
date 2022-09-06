@@ -31,20 +31,30 @@ namespace Programas_Carreras.Formularios
         {
             this.lblCarrera = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.lblMateria = new System.Windows.Forms.Label();
+            this.lblAnio = new System.Windows.Forms.Label();
+            this.lblCuatrimestre = new System.Windows.Forms.Label();
+            this.txtCarrera = new System.Windows.Forms.TextBox();
+            this.txtTitulo = new System.Windows.Forms.TextBox();
+            this.cboMateria = new System.Windows.Forms.ComboBox();
+            this.cboAnio = new System.Windows.Forms.ComboBox();
+            this.cboCuatrimestre = new System.Windows.Forms.ComboBox();
+            this.dgvPlan = new System.Windows.Forms.DataGridView();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.dgvAnio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvCuatrimestre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvMateria = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvCarrera = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvAcciones = new System.Windows.Forms.DataGridViewButtonColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPlan)).BeginInit();
             this.SuspendLayout();
             // 
             // lblCarrera
             // 
             this.lblCarrera.AutoSize = true;
-            this.lblCarrera.Location = new System.Drawing.Point(183, 59);
+            this.lblCarrera.Location = new System.Drawing.Point(112, 44);
             this.lblCarrera.Name = "lblCarrera";
             this.lblCarrera.Size = new System.Drawing.Size(41, 13);
             this.lblCarrera.TabIndex = 0;
@@ -53,92 +63,170 @@ namespace Programas_Carreras.Formularios
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Location = new System.Drawing.Point(183, 95);
+            this.lblTitulo.Location = new System.Drawing.Point(112, 80);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(35, 13);
             this.lblTitulo.TabIndex = 1;
             this.lblTitulo.Text = "Título";
             // 
-            // label3
+            // lblMateria
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(183, 133);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.lblMateria.AutoSize = true;
+            this.lblMateria.Location = new System.Drawing.Point(112, 118);
+            this.lblMateria.Name = "lblMateria";
+            this.lblMateria.Size = new System.Drawing.Size(42, 13);
+            this.lblMateria.TabIndex = 2;
+            this.lblMateria.Text = "Materia";
             // 
-            // label4
+            // lblAnio
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(183, 167);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.lblAnio.AutoSize = true;
+            this.lblAnio.Location = new System.Drawing.Point(112, 152);
+            this.lblAnio.Name = "lblAnio";
+            this.lblAnio.Size = new System.Drawing.Size(26, 13);
+            this.lblAnio.TabIndex = 3;
+            this.lblAnio.Text = "Año";
             // 
-            // label5
+            // lblCuatrimestre
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(183, 202);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.lblCuatrimestre.AutoSize = true;
+            this.lblCuatrimestre.Location = new System.Drawing.Point(112, 187);
+            this.lblCuatrimestre.Name = "lblCuatrimestre";
+            this.lblCuatrimestre.Size = new System.Drawing.Size(65, 13);
+            this.lblCuatrimestre.TabIndex = 4;
+            this.lblCuatrimestre.Text = "Cuatrimestre";
             // 
-            // textBox1
+            // txtCarrera
             // 
-            this.textBox1.Location = new System.Drawing.Point(260, 59);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 5;
+            this.txtCarrera.Location = new System.Drawing.Point(189, 44);
+            this.txtCarrera.Name = "txtCarrera";
+            this.txtCarrera.Size = new System.Drawing.Size(100, 20);
+            this.txtCarrera.TabIndex = 5;
             // 
-            // textBox2
+            // txtTitulo
             // 
-            this.textBox2.Location = new System.Drawing.Point(260, 92);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 6;
+            this.txtTitulo.Location = new System.Drawing.Point(189, 77);
+            this.txtTitulo.Name = "txtTitulo";
+            this.txtTitulo.Size = new System.Drawing.Size(100, 20);
+            this.txtTitulo.TabIndex = 6;
             // 
-            // textBox3
+            // cboMateria
             // 
-            this.textBox3.Location = new System.Drawing.Point(260, 126);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 7;
+            this.cboMateria.FormattingEnabled = true;
+            this.cboMateria.Location = new System.Drawing.Point(189, 115);
+            this.cboMateria.Name = "cboMateria";
+            this.cboMateria.Size = new System.Drawing.Size(121, 21);
+            this.cboMateria.TabIndex = 7;
             // 
-            // textBox4
+            // cboAnio
             // 
-            this.textBox4.Location = new System.Drawing.Point(260, 164);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 8;
+            this.cboAnio.FormattingEnabled = true;
+            this.cboAnio.Location = new System.Drawing.Point(189, 147);
+            this.cboAnio.Name = "cboAnio";
+            this.cboAnio.Size = new System.Drawing.Size(39, 21);
+            this.cboAnio.TabIndex = 8;
             // 
-            // textBox5
+            // cboCuatrimestre
             // 
-            this.textBox5.Location = new System.Drawing.Point(260, 199);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 9;
+            this.cboCuatrimestre.FormattingEnabled = true;
+            this.cboCuatrimestre.Location = new System.Drawing.Point(189, 184);
+            this.cboCuatrimestre.Name = "cboCuatrimestre";
+            this.cboCuatrimestre.Size = new System.Drawing.Size(39, 21);
+            this.cboCuatrimestre.TabIndex = 9;
+            // 
+            // dgvPlan
+            // 
+            this.dgvPlan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPlan.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvAnio,
+            this.dgvCuatrimestre,
+            this.dgvMateria,
+            this.dgvCarrera,
+            this.dgvAcciones});
+            this.dgvPlan.Location = new System.Drawing.Point(115, 235);
+            this.dgvPlan.Name = "dgvPlan";
+            this.dgvPlan.Size = new System.Drawing.Size(544, 149);
+            this.dgvPlan.TabIndex = 10;
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Location = new System.Drawing.Point(584, 187);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.TabIndex = 11;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Location = new System.Drawing.Point(258, 402);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.TabIndex = 12;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.Location = new System.Drawing.Point(432, 402);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(75, 23);
+            this.btnGuardar.TabIndex = 13;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            // 
+            // dgvAnio
+            // 
+            this.dgvAnio.HeaderText = "Año";
+            this.dgvAnio.Name = "dgvAnio";
+            // 
+            // dgvCuatrimestre
+            // 
+            this.dgvCuatrimestre.HeaderText = "Cuatrimestre";
+            this.dgvCuatrimestre.Name = "dgvCuatrimestre";
+            // 
+            // dgvMateria
+            // 
+            this.dgvMateria.HeaderText = "Materia";
+            this.dgvMateria.Name = "dgvMateria";
+            // 
+            // dgvCarrera
+            // 
+            this.dgvCarrera.HeaderText = "Carrera";
+            this.dgvCarrera.Name = "dgvCarrera";
+            // 
+            // dgvAcciones
+            // 
+            this.dgvAcciones.HeaderText = "Acciones";
+            this.dgvAcciones.Name = "dgvAcciones";
+            this.dgvAcciones.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvAcciones.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dgvAcciones.Text = "Eliminar";
+            this.dgvAcciones.UseColumnTextForButtonValue = true;
             // 
             // frmCarreras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnAgregar);
+            this.Controls.Add(this.dgvPlan);
+            this.Controls.Add(this.cboCuatrimestre);
+            this.Controls.Add(this.cboAnio);
+            this.Controls.Add(this.cboMateria);
+            this.Controls.Add(this.txtTitulo);
+            this.Controls.Add(this.txtCarrera);
+            this.Controls.Add(this.lblCuatrimestre);
+            this.Controls.Add(this.lblAnio);
+            this.Controls.Add(this.lblMateria);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.lblCarrera);
             this.Name = "frmCarreras";
             this.Text = "frmCarreras";
             this.Load += new System.EventHandler(this.frmCarreras_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPlan)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,13 +236,22 @@ namespace Programas_Carreras.Formularios
 
         private System.Windows.Forms.Label lblCarrera;
         private System.Windows.Forms.Label lblTitulo;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label lblMateria;
+        private System.Windows.Forms.Label lblAnio;
+        private System.Windows.Forms.Label lblCuatrimestre;
+        private System.Windows.Forms.TextBox txtCarrera;
+        private System.Windows.Forms.TextBox txtTitulo;
+        private System.Windows.Forms.ComboBox cboMateria;
+        private System.Windows.Forms.ComboBox cboAnio;
+        private System.Windows.Forms.ComboBox cboCuatrimestre;
+        private System.Windows.Forms.DataGridView dgvPlan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvAnio;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvCuatrimestre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvMateria;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvCarrera;
+        private System.Windows.Forms.DataGridViewButtonColumn dgvAcciones;
+        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnGuardar;
     }
 }

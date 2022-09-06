@@ -21,5 +21,11 @@ namespace Programas_Carreras
         {
 
         }
+
+        private void darDeAltaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frmCarreras = new Formularios.frmCarreras();
+            frmCarreras.Show();
+        }
     }
 }

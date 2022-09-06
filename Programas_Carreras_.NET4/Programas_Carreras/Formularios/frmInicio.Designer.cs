@@ -69,7 +69,7 @@ namespace Programas_Carreras
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             // 
             // carrerasToolStripMenuItem
@@ -92,6 +92,7 @@ namespace Programas_Carreras
             this.darDeAltaToolStripMenuItem.Name = "darDeAltaToolStripMenuItem";
             this.darDeAltaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.darDeAltaToolStripMenuItem.Text = "Dar de alta";
+            this.darDeAltaToolStripMenuItem.Click += new System.EventHandler(this.darDeAltaToolStripMenuItem_Click);
             // 
             // materiasToolStripMenuItem
             // 
@@ -132,7 +133,7 @@ namespace Programas_Carreras
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de...";
             // 
             // frmInicio

@@ -1,0 +1,17 @@
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\Programas_Carreras.csproj.AssemblyReference.cache
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\Programas_Carreras.Formularios.frmCarreras.resources
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\Programas_Carreras.frmInicio.resources
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\Programas_Carreras.Properties.Resources.resources
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\Programas_Carreras.csproj.GenerateResource.cache
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\Programas_Carreras.csproj.CoreCompileInputs.cache
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\Programas_Carreras.exe.config
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\Programas_Carreras.exe
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\Programas_Carreras.pdb
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\Programas_Carreras.csproj.CopyComplete
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\Programas_Carreras.exe
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\Programas_Carreras.pdb
