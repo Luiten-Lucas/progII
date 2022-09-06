@@ -4,7 +4,13 @@
     <Compile Update="Formularios\frmAgregarMateria.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Formularios\frmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Formularios\frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\frmReporteMaterias.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

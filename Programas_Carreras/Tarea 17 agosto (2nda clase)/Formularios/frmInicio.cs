@@ -37,5 +37,10 @@ namespace Tarea_17_agosto__2nda_clase_.Formularios
         {
             MessageBox.Show("Alumno: Luiten Lucas \nLegajo: 112862\nCurso: 1W3\nAño: 2022", "Acerca de este proyecto", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void frmInicio_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

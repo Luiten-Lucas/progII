@@ -40,14 +40,14 @@ namespace Programas_Carreras.Formularios
             this.cboAnio = new System.Windows.Forms.ComboBox();
             this.cboCuatrimestre = new System.Windows.Forms.ComboBox();
             this.dgvPlan = new System.Windows.Forms.DataGridView();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnGuardar = new System.Windows.Forms.Button();
             this.dgvAnio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvCuatrimestre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvMateria = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvCarrera = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvAcciones = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPlan)).BeginInit();
             this.SuspendLayout();
             // 
@@ -136,6 +136,7 @@ namespace Programas_Carreras.Formularios
             // 
             // dgvPlan
             // 
+            this.dgvPlan.AllowUserToAddRows = false;
             this.dgvPlan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPlan.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dgvAnio,
@@ -147,33 +148,6 @@ namespace Programas_Carreras.Formularios
             this.dgvPlan.Name = "dgvPlan";
             this.dgvPlan.Size = new System.Drawing.Size(544, 149);
             this.dgvPlan.TabIndex = 10;
-            // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Location = new System.Drawing.Point(584, 187);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 11;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            // 
-            // btnCancelar
-            // 
-            this.btnCancelar.Location = new System.Drawing.Point(258, 402);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelar.TabIndex = 12;
-            this.btnCancelar.Text = "Cancelar";
-            this.btnCancelar.UseVisualStyleBackColor = true;
-            // 
-            // btnGuardar
-            // 
-            this.btnGuardar.Location = new System.Drawing.Point(432, 402);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(75, 23);
-            this.btnGuardar.TabIndex = 13;
-            this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.UseVisualStyleBackColor = true;
             // 
             // dgvAnio
             // 
@@ -203,6 +177,35 @@ namespace Programas_Carreras.Formularios
             this.dgvAcciones.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.dgvAcciones.Text = "Eliminar";
             this.dgvAcciones.UseColumnTextForButtonValue = true;
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Location = new System.Drawing.Point(584, 187);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.TabIndex = 11;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click_1);
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Location = new System.Drawing.Point(258, 402);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.TabIndex = 12;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.Location = new System.Drawing.Point(432, 402);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(75, 23);
+            this.btnGuardar.TabIndex = 13;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click_1);
             // 
             // frmCarreras
             // 

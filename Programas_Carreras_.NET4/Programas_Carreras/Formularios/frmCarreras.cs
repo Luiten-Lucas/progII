@@ -47,6 +47,7 @@ namespace Programas_Carreras.Formularios
         }
         private void enviarPlanes(int anio, int cuatri, string materia, string carrera, string titulo)
         {
+            MessageBox.Show("Se llamó a enviarPlanes con Año: "+anio.ToString()+ ", cuatri:"+cuatri.ToString()+", materia: "+materia+", carrera: "+carrera+" y titulo: "+titulo, "Control", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             List<string> Procedimientos = new List<string>();
             List<SqlCommand> Parametros = new List<SqlCommand>();
             this.ultimoIdCarrera = oDatos.ObtenerUltimoId();
@@ -139,6 +140,51 @@ namespace Programas_Carreras.Formularios
             dgvPlan.Rows.Clear();
             txtCarrera.Text = "";
             txtTitulo.Text = "";
+        }
+
+        private void btnAgregar_Click_1(object sender, EventArgs e)
+        {
+            if (txtCarrera.Text.Equals(String.Empty) || txtCarrera.Text.Length < 10 || txtCarrera.Text.Length > 20)
+            {
+                MessageBox.Show("Debe indicar un nombre válido de carrera", "Control", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+            if (txtTitulo.Text.Equals(string.Empty) || txtTitulo.Text.Length < 10 || txtTitulo.Text.Length > 25)
+            {
+                MessageBox.Show("Debe indicar un título válido para la carrera " + txtCarrera.Text, "Control", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+            if(dgvPlan.Rows.Count > 0)
+            {
+                foreach (DataGridViewRow row in dgvPlan.Rows)
+                {
+                    if (row.Cells[2].Value.Equals(cboMateria.Text))
+                    {
+                        MessageBox.Show("Esta materia ya está cargada", "Control", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        return;
+                    }
+                }
+            }
+
+
+            Carrera carrera = new Carrera(txtCarrera.Text, txtTitulo.Text);
+
+            int year = Convert.ToInt32(cboAnio.Text);
+            int cuatri = Convert.ToInt32(cboCuatrimestre.Text);
+            string asignatura = cboMateria.Text;
+            Plan detalle = new Plan(year, cuatri, asignatura);
+
+            dgvPlan.Rows.Add(new object[] { year, cuatri, asignatura });
+            string result = dgvPlan.ToString();
+        }
+
+        private void btnGuardar_Click_1(object sender, EventArgs e)
+        {
+            foreach (DataGridViewRow row in dgvPlan.Rows)
+            {
+
+                this.enviarPlanes((int)row.Cells[0].Value, (int)row.Cells[1].Value, (string)row.Cells[2].Value, txtCarrera.Text, txtTitulo.Text);
+            }
         }
     }
 }

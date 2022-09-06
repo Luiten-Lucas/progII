@@ -50,3 +50,5 @@ D:\Repositorio prog 2\progII\Programas_Carreras\Tarea 17 agosto (2nda clase)\obj
 D:\Repositorio prog 2\progII\Programas_Carreras\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea 17 agosto (2nda clase).genruntimeconfig.cache
 D:\Repositorio prog 2\progII\Programas_Carreras\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\ref\Tarea 17 agosto (2nda clase).dll
 D:\Repositorio prog 2\progII\Programas_Carreras\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea_17_agosto__2nda_clase_.Properties.Resources.resources
+D:\Repositorio prog 2\progII\Programas_Carreras\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea_17_agosto__2nda_clase_.Formularios.frmInicio.resources
+D:\Repositorio prog 2\progII\Programas_Carreras\Tarea 17 agosto (2nda clase)\obj\Debug\net6.0-windows\Tarea_17_agosto__2nda_clase_.Formularios.frmReporteMaterias.resources
