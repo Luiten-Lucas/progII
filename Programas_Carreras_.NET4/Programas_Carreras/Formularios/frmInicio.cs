@@ -41,5 +41,30 @@ namespace Programas_Carreras
             var es = Materias.ToList();
             frmMaterias.materiasExistentes = Materias.ToList();
         }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Alumno: Luiten Lucas \nLegajo: 112862\nComisión: 1W3\nAño: 2022", "Control", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void consultarProgramasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Los menues 'Consultar programas', 'Consultar carreras' y 'Consultar materias' estarán disponibles pronto.", "Control", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void consultarCarrerasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Los menues 'Consultar programas', 'Consultar carreras' y 'Consultar materias' estarán disponibles pronto.", "Control", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void consultarMateriasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Los menues 'Consultar programas', 'Consultar carreras' y 'Consultar materias' estarán disponibles pronto.", "Control", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

@@ -70,8 +70,9 @@ namespace Programas_Carreras
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // carrerasToolStripMenuItem
             // 
@@ -85,8 +86,9 @@ namespace Programas_Carreras
             // consultarCarrerasToolStripMenuItem
             // 
             this.consultarCarrerasToolStripMenuItem.Name = "consultarCarrerasToolStripMenuItem";
-            this.consultarCarrerasToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.consultarCarrerasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.consultarCarrerasToolStripMenuItem.Text = "Consultar carreras";
+            this.consultarCarrerasToolStripMenuItem.Click += new System.EventHandler(this.consultarCarrerasToolStripMenuItem_Click);
             // 
             // darDeAltaToolStripMenuItem
             // 
@@ -109,11 +111,12 @@ namespace Programas_Carreras
             this.consultarMateriasToolStripMenuItem.Name = "consultarMateriasToolStripMenuItem";
             this.consultarMateriasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.consultarMateriasToolStripMenuItem.Text = "Consultar Materias";
+            this.consultarMateriasToolStripMenuItem.Click += new System.EventHandler(this.consultarMateriasToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
             this.toolStripMenuItem1.Text = "Dar de alta materias";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
@@ -130,6 +133,7 @@ namespace Programas_Carreras
             this.consultarProgramasToolStripMenuItem.Name = "consultarProgramasToolStripMenuItem";
             this.consultarProgramasToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
             this.consultarProgramasToolStripMenuItem.Text = "Consultar programas";
+            this.consultarProgramasToolStripMenuItem.Click += new System.EventHandler(this.consultarProgramasToolStripMenuItem_Click);
             // 
             // ayudaToolStripMenuItem
             // 
@@ -142,8 +146,9 @@ namespace Programas_Carreras
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de...";
+            this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
             // 
             // frmInicio
             // 
