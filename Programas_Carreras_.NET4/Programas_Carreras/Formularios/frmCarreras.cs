@@ -45,9 +45,9 @@ namespace Programas_Carreras.Formularios
             cboMateria.DisplayMember = "materia";
             MateriasCargadas = tabla;
         }
-        private void enviarPlanes(int anio, int cuatri, string materia, string carrera, string titulo)
+        //private void enviarPlanes(int anio, int cuatri, string materia, string carrera, string titulo)
+        private void enviarPlanes(List<Plan> detalles, string carrera, string titulo)
         {
-            MessageBox.Show("Se llamó a enviarPlanes con Año: "+anio.ToString()+ ", cuatri:"+cuatri.ToString()+", materia: "+materia+", carrera: "+carrera+" y titulo: "+titulo, "Control", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             List<string> Procedimientos = new List<string>();
             List<SqlCommand> Parametros = new List<SqlCommand>();
             this.ultimoIdCarrera = oDatos.ObtenerUltimoId();
@@ -56,14 +56,16 @@ namespace Programas_Carreras.Formularios
             comando.Parameters.AddWithValue("carrera", carrera);
             comando.Parameters.AddWithValue("titulo", titulo);
             Parametros.Add(comando);
-
-            Procedimientos.Add("SP_CARGAR_PLANES");
-            SqlCommand comando2 = new SqlCommand();
-            comando2.Parameters.AddWithValue("anio", anio);
-            comando2.Parameters.AddWithValue("cuatrimestre", cuatri);
-            comando2.Parameters.AddWithValue("materia", materia);
-            comando2.Parameters.AddWithValue("carrera", this.ultimoIdCarrera);
-            Parametros.Add(comando2);
+            foreach (var detalle in detalles)
+            {
+                Procedimientos.Add("SP_CARGAR_PLANES");
+                SqlCommand comando2 = new SqlCommand();
+                comando2.Parameters.AddWithValue("anio", detalle.Anio);
+                comando2.Parameters.AddWithValue("cuatrimestre", detalle.Cuatrimestre);
+                comando2.Parameters.AddWithValue("materia", detalle.Materia);
+                comando2.Parameters.AddWithValue("carrera", this.ultimoIdCarrera);
+                Parametros.Add(comando2);
+            }
 
             string resultado = oDatos.EjecutarTransaccion(Procedimientos, Parametros);
             Limpiar();
@@ -121,7 +123,7 @@ namespace Programas_Carreras.Formularios
             foreach (DataGridViewRow row in dgvPlan.Rows)
             {
 
-                this.enviarPlanes((int)row.Cells[0].Value, (int)row.Cells[1].Value, (string)row.Cells[2].Value, txtCarrera.Text, txtTitulo.Text);
+                //this.enviarPlanes((int)row.Cells[0].Value, (int)row.Cells[1].Value, (string)row.Cells[2].Value, txtCarrera.Text, txtTitulo.Text);
             }
         }
 
@@ -180,11 +182,14 @@ namespace Programas_Carreras.Formularios
 
         private void btnGuardar_Click_1(object sender, EventArgs e)
         {
+            List<Plan> detalles = new List<Plan>();
             foreach (DataGridViewRow row in dgvPlan.Rows)
             {
-
-                this.enviarPlanes((int)row.Cells[0].Value, (int)row.Cells[1].Value, (string)row.Cells[2].Value, txtCarrera.Text, txtTitulo.Text);
+                Plan detalle = new Plan((int)row.Cells[0].Value, (int)row.Cells[1].Value, (string)row.Cells[2].Value);
+                // 0 es anio, 1 es cuatri, 2 es materia
+                detalles.Add(detalle);
             }
+                this.enviarPlanes(detalles, txtCarrera.Text, txtTitulo.Text);
         }
     }
 }
