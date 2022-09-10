@@ -146,12 +146,12 @@ namespace Programas_Carreras.Formularios
 
         private void btnAgregar_Click_1(object sender, EventArgs e)
         {
-            if (txtCarrera.Text.Equals(String.Empty) || txtCarrera.Text.Length < 10 || txtCarrera.Text.Length > 20)
+            if (txtCarrera.Text.Equals(String.Empty) || txtCarrera.Text.Length < 5 || txtCarrera.Text.Length > 50)
             {
                 MessageBox.Show("Debe indicar un nombre válido de carrera", "Control", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
-            if (txtTitulo.Text.Equals(string.Empty) || txtTitulo.Text.Length < 10 || txtTitulo.Text.Length > 25)
+            if (txtTitulo.Text.Equals(string.Empty) || txtTitulo.Text.Length < 5 || txtTitulo.Text.Length > 50)
             {
                 MessageBox.Show("Debe indicar un título válido para la carrera " + txtCarrera.Text, "Control", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;

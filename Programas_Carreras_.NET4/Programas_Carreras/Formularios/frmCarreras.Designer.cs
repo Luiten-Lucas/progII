@@ -100,14 +100,14 @@ namespace Programas_Carreras.Formularios
             // 
             this.txtCarrera.Location = new System.Drawing.Point(189, 44);
             this.txtCarrera.Name = "txtCarrera";
-            this.txtCarrera.Size = new System.Drawing.Size(100, 20);
+            this.txtCarrera.Size = new System.Drawing.Size(213, 20);
             this.txtCarrera.TabIndex = 5;
             // 
             // txtTitulo
             // 
             this.txtTitulo.Location = new System.Drawing.Point(189, 77);
             this.txtTitulo.Name = "txtTitulo";
-            this.txtTitulo.Size = new System.Drawing.Size(100, 20);
+            this.txtTitulo.Size = new System.Drawing.Size(213, 20);
             this.txtTitulo.TabIndex = 6;
             // 
             // cboMateria

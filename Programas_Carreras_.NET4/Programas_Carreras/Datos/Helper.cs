@@ -50,7 +50,7 @@ namespace Programas_Carreras.Datos
                 param.Direction = ParameterDirection.Output;
                 comando.Parameters.Add(param);
                 comando.ExecuteNonQuery();
-                int ultimoId = Convert.ToInt32(param.Value ?? 1);
+                int ultimoId = param.Value.GetType()==typeof(int) ? (int)param.Value :  1 ;
                 return ultimoId;
 
             }
