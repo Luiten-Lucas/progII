@@ -109,14 +109,14 @@ namespace Programas_Carreras.Formularios
             //dgvPlan.Rows[0].Cells[1] = cuatri
             //dgvPlan.Rows[0].Cells[2] = materia
         }
-        private void dgvPlan_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (dgvPlan.CurrentCell.ColumnIndex == 4)
-            {
-                //dgvPlan.Rows[dgvPlan.CurrentCell.RowIndex]
-                dgvPlan.Rows.RemoveAt(dgvPlan.CurrentCell.RowIndex);
-            }
-        }
+        //private void dgvPlan_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        //{
+        //    if (dgvPlan.CurrentCell.ColumnIndex == 5)
+        //    {
+        //        //dgvPlan.Rows[dgvPlan.CurrentCell.RowIndex]
+        //        dgvPlan.Rows.RemoveAt(dgvPlan.CurrentCell.RowIndex);
+        //    }
+        //}
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
@@ -190,6 +190,15 @@ namespace Programas_Carreras.Formularios
                 detalles.Add(detalle);
             }
                 this.enviarPlanes(detalles, txtCarrera.Text, txtTitulo.Text);
+        }
+
+        private void dgvPlan_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dgvPlan.CurrentCell.ColumnIndex == 4)
+            {
+        //        //dgvPlan.Rows[dgvPlan.CurrentCell.RowIndex]
+                dgvPlan.Rows.RemoveAt(dgvPlan.CurrentCell.RowIndex);
+           }
         }
     }
 }

@@ -148,6 +148,7 @@ namespace Programas_Carreras.Formularios
             this.dgvPlan.Name = "dgvPlan";
             this.dgvPlan.Size = new System.Drawing.Size(544, 149);
             this.dgvPlan.TabIndex = 10;
+            this.dgvPlan.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPlan_CellContentClick);
             // 
             // dgvAnio
             // 
