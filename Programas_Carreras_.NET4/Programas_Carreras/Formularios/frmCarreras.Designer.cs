@@ -115,7 +115,7 @@ namespace Programas_Carreras.Formularios
             this.cboMateria.FormattingEnabled = true;
             this.cboMateria.Location = new System.Drawing.Point(189, 115);
             this.cboMateria.Name = "cboMateria";
-            this.cboMateria.Size = new System.Drawing.Size(121, 21);
+            this.cboMateria.Size = new System.Drawing.Size(213, 21);
             this.cboMateria.TabIndex = 7;
             // 
             // cboAnio
@@ -228,7 +228,7 @@ namespace Programas_Carreras.Formularios
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.lblCarrera);
             this.Name = "frmCarreras";
-            this.Text = "frmCarreras";
+            this.Text = "Alta de carrera";
             this.Load += new System.EventHandler(this.frmCarreras_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPlan)).EndInit();
             this.ResumeLayout(false);
