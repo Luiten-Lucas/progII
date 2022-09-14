@@ -80,6 +80,12 @@
     <Compile Include="Formularios\frmConsultarCarreras.Designer.cs">
       <DependentUpon>frmConsultarCarreras.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frmConsultarPlanes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmConsultarPlanes.Designer.cs">
+      <DependentUpon>frmConsultarPlanes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\frmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dsMaterias.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Reportes\dsPlanes.cs">
+      <DependentUpon>dsPlanes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\dsPlanes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPlanes.xsd</DependentUpon>
+    </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <EmbeddedResource Include="Formularios\frmAgregarMateria.resx">
       <DependentUpon>frmAgregarMateria.cs</DependentUpon>
@@ -102,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmConsultarCarreras.resx">
       <DependentUpon>frmConsultarCarreras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmConsultarPlanes.resx">
+      <DependentUpon>frmConsultarPlanes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
@@ -117,6 +134,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Reportes\ListadoCarreras.rdlc" />
+    <EmbeddedResource Include="Reportes\ListadoPlanes.rdlc" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -137,6 +155,14 @@
     </None>
     <None Include="Reportes\dsMaterias.xss">
       <DependentUpon>dsMaterias.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes\dsPlanes.xsc">
+      <DependentUpon>dsPlanes.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes\dsPlanes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPlanes.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>

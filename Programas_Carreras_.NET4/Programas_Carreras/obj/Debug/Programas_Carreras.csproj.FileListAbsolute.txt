@@ -65,3 +65,4 @@ D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Deb
 D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
 D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
 D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\Programas_Carreras.Formularios.frmConsultarPlanes.resources

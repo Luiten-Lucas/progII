@@ -54,7 +54,9 @@ namespace Programas_Carreras
 
         private void consultarProgramasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Los menues 'Consultar programas', 'Consultar carreras' y 'Consultar materias' estarán disponibles pronto.", "Control", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //MessageBox.Show("Los menues 'Consultar programas', 'Consultar carreras' y 'Consultar materias' estarán disponibles pronto.", "Control", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            var frmConsultarPlanes = new Formularios.frmConsultarPlanes();
+            frmConsultarPlanes.Show();
         }
 
         private void consultarCarrerasToolStripMenuItem_Click(object sender, EventArgs e)
