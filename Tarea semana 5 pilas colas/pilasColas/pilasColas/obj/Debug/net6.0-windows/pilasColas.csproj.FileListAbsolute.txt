@@ -1,0 +1,34 @@
+D:\Repositorio prog 2\pilasColas\pilasColas\bin\Debug\net6.0-windows\pilasColas.exe
+D:\Repositorio prog 2\pilasColas\pilasColas\bin\Debug\net6.0-windows\pilasColas.deps.json
+D:\Repositorio prog 2\pilasColas\pilasColas\bin\Debug\net6.0-windows\pilasColas.runtimeconfig.json
+D:\Repositorio prog 2\pilasColas\pilasColas\bin\Debug\net6.0-windows\pilasColas.dll
+D:\Repositorio prog 2\pilasColas\pilasColas\bin\Debug\net6.0-windows\pilasColas.pdb
+D:\Repositorio prog 2\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.csproj.AssemblyReference.cache
+D:\Repositorio prog 2\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.Form1.resources
+D:\Repositorio prog 2\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.csproj.GenerateResource.cache
+D:\Repositorio prog 2\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositorio prog 2\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.AssemblyInfoInputs.cache
+D:\Repositorio prog 2\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.AssemblyInfo.cs
+D:\Repositorio prog 2\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.csproj.CoreCompileInputs.cache
+D:\Repositorio prog 2\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.dll
+D:\Repositorio prog 2\pilasColas\pilasColas\obj\Debug\net6.0-windows\refint\pilasColas.dll
+D:\Repositorio prog 2\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.pdb
+D:\Repositorio prog 2\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.genruntimeconfig.cache
+D:\Repositorio prog 2\pilasColas\pilasColas\obj\Debug\net6.0-windows\ref\pilasColas.dll
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\bin\Debug\net6.0-windows\pilasColas.exe
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\bin\Debug\net6.0-windows\pilasColas.deps.json
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\bin\Debug\net6.0-windows\pilasColas.runtimeconfig.json
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\bin\Debug\net6.0-windows\pilasColas.dll
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\bin\Debug\net6.0-windows\pilasColas.pdb
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.csproj.AssemblyReference.cache
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.Form1.resources
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.csproj.GenerateResource.cache
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.AssemblyInfoInputs.cache
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.AssemblyInfo.cs
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.csproj.CoreCompileInputs.cache
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.dll
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\obj\Debug\net6.0-windows\refint\pilasColas.dll
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.pdb
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\obj\Debug\net6.0-windows\pilasColas.genruntimeconfig.cache
+D:\Repositorio prog 2\progII\Tarea semana 5 pilas colas\pilasColas\pilasColas\obj\Debug\net6.0-windows\ref\pilasColas.dll
