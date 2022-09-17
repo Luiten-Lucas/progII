@@ -14,8 +14,14 @@ namespace Programas_Carreras.Formularios
 {
     public partial class frmAgregarMateria : Form
     {
+        Helper oDatos;
         public DataTable MateriasCargadas = new DataTable();
         public List<string> materiasExistentes = new List<string>();
+
+        private void frmAgregarMateria_Load(object sender, EventArgs e)
+        {
+            oDatos = Helper.InstanciarHelper();
+        }
         public frmAgregarMateria(List<string> list)
         {
 
@@ -30,10 +36,6 @@ namespace Programas_Carreras.Formularios
             materiasExistentes = MateriasCargadas;
         }
 
-        private void frmAgregarMateria_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
@@ -49,20 +51,22 @@ namespace Programas_Carreras.Formularios
             }
             else
             {
-                SqlConnection conexion = new SqlConnection();
-                conexion.ConnectionString = @"Data Source=DESKTOP-AR2T61C;Initial Catalog=planesCarrera;Integrated Security=True";
-                conexion.Open();
-                SqlCommand comando = new SqlCommand();
-                comando.Connection = conexion;
-                comando.CommandType = CommandType.StoredProcedure;
-                comando.CommandText = "SP_CARGAR_ASIGNATURA";
-                comando.Parameters.AddWithValue("Nombre", txtMateriaNueva.Text);
-                comando.ExecuteNonQuery();
-                conexion.Close();
-                var nomMateria = txtMateriaNueva.Text;
-                txtMateriaNueva.Text = "";
-                this.Close();
-                MessageBox.Show("La materia '" + nomMateria + "' fue cargada con éxito", "Control", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                string resultado="";
+                try
+                {
+                    List<string> Procedimientos = new List<string>();
+                    List<SqlCommand> Parametros = new List<SqlCommand>();
+                    Procedimientos.Add("SP_CARGAR_ASIGNATURA");
+                    SqlCommand comando = new SqlCommand();
+                    comando.Parameters.AddWithValue("Nombre", txtMateriaNueva.Text);
+                    Parametros.Add(comando);
+                    resultado = oDatos.EjecutarTransaccion(Procedimientos, Parametros);
+                }
+                catch (Exception)
+                {
+
+                    MessageBox.Show(resultado, "Control", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
 
 
             }
@@ -75,7 +79,41 @@ namespace Programas_Carreras.Formularios
 
         private void btnCrearMateria_Click(object sender, EventArgs e)
         {
+            if (txtMateriaNueva.Text.Equals(String.Empty) || txtMateriaNueva.Text.Length < 6 || txtMateriaNueva.Text.Length > 20)
+            {
+                MessageBox.Show("Debe indicar un nombre válido de carrera", "Control", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+            if (materiasExistentes.Contains(txtMateriaNueva.Text))
+            {
+                MessageBox.Show("La materia '" + txtMateriaNueva.Text + "' ya está cargada en el sistema", "Control", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+            else
+            {
+                string resultado = "";
+                try
+                {
+                    List<string> Procedimientos = new List<string>();
+                    List<SqlCommand> Parametros = new List<SqlCommand>();
+                    Procedimientos.Add("SP_CARGAR_ASIGNATURA");
+                    SqlCommand comando = new SqlCommand();
+                    comando.Parameters.AddWithValue("Nombre", txtMateriaNueva.Text);
+                    Parametros.Add(comando);
+                    resultado = oDatos.EjecutarTransaccion(Procedimientos, Parametros);
+                    MessageBox.Show(resultado, "Control", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    resultado = "";
+                    this.Close();
+                }
+                catch (Exception)
+                {
 
+                    MessageBox.Show(resultado, "Control", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    resultado = "";
+                }
+
+
+            }
         }
     }
 }

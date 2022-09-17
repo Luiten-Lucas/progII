@@ -11,12 +11,23 @@ namespace Programas_Carreras.Datos
     class Helper
     {
         private SqlConnection Conexion;
+        private static Helper instancia;
         private string resultado = "Se ejecutó con éxito la carga de datos";
-        public Helper()
+        private Helper()
         {
             Conexion = new SqlConnection();
             Conexion.ConnectionString = Properties.Resources.ConnectionString;
         }
+
+        public static Helper InstanciarHelper()
+        {
+            if(instancia == null)
+            {
+                instancia = new Helper();  
+            }
+            return instancia;
+        }
+
         public DataTable EjecutarSPConsulta(string nombreSP)
         {
             DataTable table = new DataTable();
@@ -99,5 +110,7 @@ namespace Programas_Carreras.Datos
 
             return resultado;
         }
+
+        
     }
 }

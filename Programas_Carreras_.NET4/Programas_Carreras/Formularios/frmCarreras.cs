@@ -22,7 +22,8 @@ namespace Programas_Carreras.Formularios
 
         {
             InitializeComponent();
-            oDatos = new Helper();
+            //oDatos = new Helper();
+            oDatos = Helper.InstanciarHelper();
 
         }
 
@@ -105,26 +106,6 @@ namespace Programas_Carreras.Formularios
 
             dgvPlan.Rows.Add(new object[] { year, cuatri, asignatura });
             string result = dgvPlan.ToString();
-            //dgvPlan.Rows[0].Cells[0]= año
-            //dgvPlan.Rows[0].Cells[1] = cuatri
-            //dgvPlan.Rows[0].Cells[2] = materia
-        }
-        //private void dgvPlan_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        //{
-        //    if (dgvPlan.CurrentCell.ColumnIndex == 5)
-        //    {
-        //        //dgvPlan.Rows[dgvPlan.CurrentCell.RowIndex]
-        //        dgvPlan.Rows.RemoveAt(dgvPlan.CurrentCell.RowIndex);
-        //    }
-        //}
-
-        private void btnGuardar_Click(object sender, EventArgs e)
-        {
-            foreach (DataGridViewRow row in dgvPlan.Rows)
-            {
-
-                //this.enviarPlanes((int)row.Cells[0].Value, (int)row.Cells[1].Value, (string)row.Cells[2].Value, txtCarrera.Text, txtTitulo.Text);
-            }
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -196,7 +177,6 @@ namespace Programas_Carreras.Formularios
         {
             if (dgvPlan.CurrentCell.ColumnIndex == 4)
             {
-        //        //dgvPlan.Rows[dgvPlan.CurrentCell.RowIndex]
                 dgvPlan.Rows.RemoveAt(dgvPlan.CurrentCell.RowIndex);
            }
         }

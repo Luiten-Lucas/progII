@@ -14,6 +14,7 @@ namespace Programas_Carreras
     public partial class frmInicio : Form
     {
         public DataTable MateriasCargadas = new DataTable();
+        Helper oDatos;
         public frmInicio()
         {
             InitializeComponent();
@@ -21,7 +22,7 @@ namespace Programas_Carreras
 
         private void frmInicio_Load(object sender, EventArgs e)
         {
-            Helper oDatos = new Helper();
+            oDatos = Helper.InstanciarHelper();
             DataTable tabla = new DataTable();
             tabla = oDatos.EjecutarSPConsulta("SP_OBTENER_ASIGNATURAS");
             MateriasCargadas = tabla;
