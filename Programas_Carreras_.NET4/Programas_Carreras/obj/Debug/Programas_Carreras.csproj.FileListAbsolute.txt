@@ -24,7 +24,6 @@ D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Deb
 D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\Microsoft.ReportViewer.Common.dll
 D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\stdole.dll
 D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
-D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\EnvDTE.xml
 D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
 D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
 D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
@@ -66,3 +65,11 @@ D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Deb
 D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
 D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
 D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\Programas_Carreras.Formularios.frmConsultarPlanes.resources
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\bin\Debug\Microsoft.MSXML.dll
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\RdlCompile.cache
+D:\Repositorio prog 2\progII\Programas_Carreras_.NET4\Programas_Carreras\obj\Debug\RdlCompile.compiled
