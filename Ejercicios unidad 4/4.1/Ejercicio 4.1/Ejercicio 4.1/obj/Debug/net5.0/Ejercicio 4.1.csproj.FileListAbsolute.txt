@@ -1,0 +1,28 @@
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\bin\Debug\net5.0\appsettings.Development.json
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\bin\Debug\net5.0\appsettings.json
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\bin\Debug\net5.0\Ejercicio 4.1.exe
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\bin\Debug\net5.0\Ejercicio 4.1.deps.json
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\bin\Debug\net5.0\Ejercicio 4.1.runtimeconfig.json
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\bin\Debug\net5.0\Ejercicio 4.1.runtimeconfig.dev.json
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\bin\Debug\net5.0\Ejercicio 4.1.dll
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\bin\Debug\net5.0\Ejercicio 4.1.pdb
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\Ejercicio 4.1.csproj.AssemblyReference.cache
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\Ejercicio 4.1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\Ejercicio 4.1.AssemblyInfoInputs.cache
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\Ejercicio 4.1.AssemblyInfo.cs
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\Ejercicio 4.1.csproj.CoreCompileInputs.cache
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\Ejercicio 4.1.MvcApplicationPartsAssemblyInfo.cs
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\Ejercicio 4.1.MvcApplicationPartsAssemblyInfo.cache
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\scopedcss\bundle\Ejercicio 4.1.styles.css
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\staticwebassets\Ejercicio 4.1.StaticWebAssets.Manifest.cache
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\Ejercicio 4.1.RazorTargetAssemblyInfo.cache
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\Ejercicio 4.1.csproj.CopyComplete
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\Ejercicio 4.1.dll
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\refint\Ejercicio 4.1.dll
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\Ejercicio 4.1.pdb
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\Ejercicio 4.1.genruntimeconfig.cache
+D:\Repositorio prog 2\progII\Ejercicios unidad 4\4.1\Ejercicio 4.1\Ejercicio 4.1\obj\Debug\net5.0\ref\Ejercicio 4.1.dll
